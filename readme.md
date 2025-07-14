@@ -1,4 +1,4 @@
-# Imersão DevOps - Alura Google Cloud
+# 🎓 API Escolar - FastAPI com Gerenciamento de Alunos, Cursos e Matrículas
 
 Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e matrículas em uma instituição de ensino.
 
@@ -8,10 +8,10 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://www.docker.com/get-started/)
 
-## Passos para subir o projeto
+## 🚀 Como rodar o projeto
 
 1. **Faça o download do repositório:**
-   [Clique aqui para realizar o download](https://github.com/guilhermeonrails/imersao-devops/archive/refs/heads/main.zip)
+   [Clique aqui para realizar o download](https://github.com/michaelazev/Pipeline-Escola.git)
 
 2. **Crie um ambiente virtual:**
    ```sh
@@ -51,7 +51,7 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 ---
 
-## Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 - `app.py`: Arquivo principal da aplicação FastAPI.
 - `models.py`: Modelos do banco de dados (SQLAlchemy).
@@ -62,7 +62,22 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 ---
 
+## ⚙️ Funcionalidades da API
+
+✅ Cadastro e gerenciamento de alunos
+✅ Matrícula de alunos em cursos
+✅ Documentação interativa via Swagger
+✅ Banco de dados SQLite gerenciado automaticamente
+
+---
+
 - O banco de dados SQLite será criado automaticamente como `escola.db` na primeira execução.
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
 
 ---
+
+## 📌 Observação Final
+
+Este projeto faz parte da Imersão DevOps - Alura Google Cloud e tem como objetivo praticar conceitos de APIs REST, FastAPI, Docker e boas práticas de versionamento.
+
+Contribuições são bem-vindas! Bora codar 🚀
